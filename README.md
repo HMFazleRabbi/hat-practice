@@ -48,6 +48,14 @@ To use this repository and interact with the token contract, follow these steps:
    ```bash
    npx hardhat test
    ```
+### Deployed Contract
+The token contract has been successfully deployed to the Ethereum network. Here are the deployment details:
+
+- Network: Sepolia
+- Deployer Address: 0xC24Be7F49a50996a46EE6b6aCaeAeD49068A57Ad
+
+- Token Address: 0x4D6b1C6c9435b84039cB28c7208A6CE9BAfC21e2
+
 
 ### Important Notes
 
