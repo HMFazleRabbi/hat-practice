@@ -1,0 +1,66 @@
+(nft) C:\Users\frabb\OneDrive\Desktop\WS\Next\hat-practice>git init
+Initialized empty Git repository in C:/Users/frabb/OneDrive/Desktop/WS/Next/hat-practice/.git/
+
+(nft) C:\Users\frabb\OneDrive\Desktop\WS\Next\hat-practice>npx hardhat test
+
+
+  Token contract
+    Deployment
+      ✔ Should set the right owner (17423ms)
+      ✔ Should assign the total supply of tokens to the owner
+    Transactions
+      ✔ Should transfer tokens between accounts (144ms)
+      ✔ Should emit Transfer events (57ms)
+      ✔ Should fail if sender doesn't have enough tokens (391ms)
+
+
+  5 passing (18s)
+
+
+(nft) C:\Users\frabb\OneDrive\Desktop\WS\Next\hat-practice>npx hardhat test
+Compiled 2 Solidity files successfully
+
+
+  Token contract
+    Deployment
+      ✔ Should set the right owner (3450ms)
+      ✔ Should assign the total supply of tokens to the owner
+    Transactions
+Transferring from 0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266 to 0x70997970c51812dc3a010c7d01b50e0d17dc79c8 50 tokens
+Transferring from 0x70997970c51812dc3a010c7d01b50e0d17dc79c8 to 0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc 50 tokens
+      ✔ Should transfer tokens between accounts (199ms)
+Transferring from 0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266 to 0x70997970c51812dc3a010c7d01b50e0d17dc79c8 50 tokens
+Transferring from 0x70997970c51812dc3a010c7d01b50e0d17dc79c8 to 0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc 50 tokens
+      ✔ Should emit Transfer events (85ms)
+      ✔ Should fail if sender doesn't have enough tokens (127ms)
+
+
+  5 passing (4s)
+
+
+(nft) C:\Users\frabb\OneDrive\Desktop\WS\Next\hat-practice>npx hardhat test
+Compiled 1 Solidity file successfully
+
+
+  Token contract
+    Deployment  
+      ✔ Should set the right owner (3289ms)
+      ✔ Should assign the total supply of tokens to the owner
+    Transactions
+LOG:    Transferring from 0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266 to 0x70997970c51812dc3a010c7d01b50e0d17dc79c8 50 tokens
+LOG:    Transferring from 0x70997970c51812dc3a010c7d01b50e0d17dc79c8 to 0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc 50 tokens
+      ✔ Should transfer tokens between accounts (207ms)
+LOG:    Transferring from 0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266 to 0x70997970c51812dc3a010c7d01b50e0d17dc79c8 50 tokens
+LOG:    Transferring from 0x70997970c51812dc3a010c7d01b50e0d17dc79c8 to 0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc 50 tokens
+      ✔ Should emit Transfer events (89ms)
+      ✔ Should fail if sender doesn't have enough tokens (127ms)
+
+
+  5 passing (4s)
+
+
+(nft) C:\Users\frabb\OneDrive\Desktop\WS\Next\hat-practice>npx hardhat run scripts/deploy.js --network sepolia
+Deploying contracts with the account: 0xC24Be7F49a50996a46EE6b6aCaeAeD49068A57Ad
+Token address: 0x4D6b1C6c9435b84039cB28c7208A6CE9BAfC21e2
+
+(nft) C:\Users\frabb\OneDrive\Desktop\WS\Next\hat-practice>
